@@ -148,7 +148,6 @@
 
     .section-one{
         font-family: "JetBrains Mono", monospace;
-        font-size: 48px;
         height: 50% ;
         position: flex;
         opacity: 100;
@@ -160,11 +159,21 @@
         margin: 10px;
     }
 
+    .section_font-1{
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .section_font-2{
+        font-size: 24px;
+    }
+
 </style>
 <body>
     <div class="front-word">
-        This is the personal website of Shih-Yi(Edward) Chen
+        This is the personal website of <br> Shih-Yi(Edward) Chen
         <div>
+            <br
             <a>
             <!-- press "a" to continue -->
             press enter to continue<a class="blink">_</a>
@@ -175,7 +184,9 @@
 
     <li class="main-content">
         <h1>Hello I am Edward, a marketing / data analyst and a front-end enthusiast
+            
             <div>
+                <br>
                 <a>
                     <a href="https://github.com/ShiiCSY" target="_blank" rel="noopener noreferrer" ><img src="https://img.icons8.com/ios/50/000000/github.png" alt="GitHub" class="icon"></a>
                 </a>
@@ -189,11 +200,27 @@
     
     </li>
     <h2 class="section-one fade-in">
-        About me       
+        <div class="section_font-1">
+            About me
+        </div>
+        <div class="section_font-2">
+            I am currently a master student at University of Illinois at Urbana-Champaign, 
+            pursuing a master's degree in Business Analytics. 
+            I have a strong passion for data visualization and web development, 
+            that is why I built this website to showcase my projects and my skills.
+            Currently, I am looking for positions that could leverage my skills in marketing and analytics.
+            Please feel free to contact me if you are interested in my portfolio.
+        </div>
+        <br
+        <div class="section_font-2">
+            
+        </div>
     </h2>
 
-    <h2>
-        My projects
+    <h2 class="section-one">
+        <div class="section_font-1">
+            My projects
+        </div>
     </h2>
 
     
