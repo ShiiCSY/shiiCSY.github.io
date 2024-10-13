@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shih-Yi(Edward) Chen</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
     <link rel="script" href="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +43,7 @@
         height: 100vh;
         font-family: "Nintendoid1";
         display: flex;
-
+        z-index: 9999;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -217,9 +217,26 @@
         </div>
     </h2>
 
-    <h2 class="section-one">
+    <h2 class="section-one fade-in">
         <div class="section_font-1">
             My projects
+            <div class="slideshow-container section_font-1">
+                <div class="slider_wrapper">
+                    slideshow insert here
+                    <div class="slider">
+                        <img id="slide1" src="https://picsum.photos/200/300" alt="random image">
+                        <img id="slide2" src="https://picsum.photos/200/301" alt="random image">
+                        <img id="slide3" src="https://picsum.photos/200/302" alt="random image">
+                    </div>
+                    <div class="slider_nav">
+                        <a href="#slide1"></a>
+                        <a href="#slide2"></a>
+                        <a href="#slide3"></a>
+                    </div>
+                </div>
+               
+                
+            </div>
         </div>
     </h2>
 
