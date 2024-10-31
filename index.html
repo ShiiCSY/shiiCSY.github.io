@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="sy_script.js"></script>
 
 
@@ -32,6 +35,8 @@
          font-weight: 400;
          font-style: normal;
     }
+
+
 
     .front-word{
         background-color: rgb(0, 0, 36);
@@ -136,6 +141,13 @@
         opacity: 1;
     }
 
+    h2{
+        font-family: "Roboto", sans-serif;
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+    }
+
     .icon{
         width: 50px;
         height: 50px;
@@ -152,24 +164,31 @@
         position: flex;
         opacity: 100;
         transition: opacity 1s ease-in-out;
-        background-color: #ffffff;
+        background: rgba( 255, 255, 255, 0.15 );
         color: black;
         border-radius: 10px;
-        padding: 10px;
-        margin: 10px;
+        padding: 30px;
+        margin: 20px;
     }
+
+    /* .section-one:hover{
+        color: rgba(255, 255, 255, 0.131);
+    } */
 
     .section_font-1{
         font-size: 48px;
         font-weight: bold;
+        color: rgba(255, 255, 255, 0.755);
     }
 
     .section_font-2{
         font-size: 24px;
+        color: rgba(255, 255, 255, 0.755);
     }
 
 </style>
 <body>
+<main class="content">
     <div class="front-word">
         This is the personal website of <br> Shih-Yi(Edward) Chen
         <div>
@@ -182,10 +201,12 @@
         </div>
     </div>
 
-    <li class="main-content">
-        <h1>Hello I am Edward, a marketing / data analyst and a front-end enthusiast
-            
-            <div>
+    <li class="main-content roboto-medium">
+        <h2 class="bebas-neue-regular">Shih-Yi (Edward) Chen</h2>
+        <h1>
+            <div class="location-container">
+                <span class="location-text bebas-neue-regular">📍Illinois, USA</span>
+            </div>
                 <br>
                 <a>
                     <a href="https://github.com/ShiiCSY" target="_blank" rel="noopener noreferrer" ><img src="https://img.icons8.com/ios/50/000000/github.png" alt="GitHub" class="icon"></a>
@@ -199,29 +220,35 @@
     
     
     </li>
-    <h2 class="section-one fade-in">
+    <h2 class="section-one fade-in glass">
         <div class="section_font-1">
             About me
         </div>
+        <br>
         <div class="section_font-2">
+            Hello I am Edward, a marketing / data analyst and a front-end enthusiast
+            <br>
+            <br>
             I am currently a master student at University of Illinois at Urbana-Champaign, 
-            pursuing a master's degree in Business Analytics. 
+            pursuing a master's degree in <strong>Business Analytics</strong>. 
             I have a strong passion for data visualization and analytics, 
             that is why I built this website to showcase my projects and my skills.
-            Currently, I am looking for positions that could leverage my skills in marketing and analytics.
+            Currently, I am looking for positions that could leverage my skills in <strong>marketing</strong> and <strong>analytics</strong>.
             Please feel free to contact me if you are interested in my portfolio.
         </div>
-        <br
+        <br>
         <div class="section_font-2">
             
         </div>
     </h2>
 
-    <h2 class="section-one fade-in">
+    <h2 class="section-one fade-in glass">
         <div class="section_font-1">
             My projects
-            <div class='tableauPlaceholder tableau_container' id='viz1730297436686' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;re&#47;resume1_17302973831190&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='resume1_17302973831190&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;re&#47;resume1_17302973831190&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-TW' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1730297436686');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1077px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <br>
+            <div class='tableauPlaceholder' id='viz1730318953431' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;re&#47;resume1_17302973831190&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='resume1_17302973831190&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;re&#47;resume1_17302973831190&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-TW' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1730318953431');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1077px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
             <!-- <div class="slideshow-container section_font-1">
+                <div class='tableauPlaceholder' id='viz1730297436686' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;re&#47;resume1_17302973831190&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='resume1_17302973831190&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;re&#47;resume1_17302973831190&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-TW' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1730297436686');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1077px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement); </script>
                 <div class="slider_wrapper">
                     <div class="slider">
                         <img id="slide1" src="https://picsum.photos/200/300" alt="random image">
@@ -233,11 +260,13 @@
                         <a href="#slide2"></a>
                         <a href="#slide3"></a>
                     </div>
-                </div>  -->
-            </div> 
+                </div>
+               
+                
+            </div> -->
         </div>
     </h2>
-
+</main>
     
 </body>
 </html>
