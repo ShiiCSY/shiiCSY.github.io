@@ -98,7 +98,7 @@
   .location-text {
       margin: 0; 
       color: #fff;
-      font-size: 28px;
+      font-size: 30px;
   }
   
   .roboto-thin {
@@ -243,18 +243,18 @@
       font-size: 1.05em;
   }
   
-  .social-icons {
+  /* .social-icons {
     display: flex;
     gap: 1rem;
     justify-content: right;
-  }
+  } */
   
   .profile-pic {
     display: flex;
     gap: 1rem;
     justify-content: right;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
   }
   
   
