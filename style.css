@@ -253,8 +253,114 @@
     display: flex;
     gap: 1rem;
     justify-content: right;
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
+  }
+  
+  .project-box {
+      width: 700px;
+      height: 600px;
+      display: flex;
+      margin: 10px auto;
+      flex-direction: column;
+      background-color: #2e0f24;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+  }
+  
+  .project-pic {
+      /* position: absolute; */
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      /* border: none; */
+      opacity: 0.7;
+      -webkit-mask-image: linear-gradient(to top, transparent 20%, #000 100%);
+      mask-image: linear-gradient(to top, transparent 20%, #000 100%);
+      transition: all 300ms ease-out;
+  }
+  
+  /* .project-pic:hover {
+      opacity: 1;
+      -webkit-mask-image: linear-gradient(to top, transparent 0%, #000 100%);
+      mask-image: linear-gradient(to top, transparent 0%, #000 100%);
+      transform: scale(1.05);
+  } */
+  
+  .project-title-text {
+      color: #fff;
+      font-size: 30px;
+      margin: 10px;
+      position: absolute;
+      bottom: 100px;
+      left: 0;
+      transition: bottom 0.3s ease;
+  }
+  
+  .project-skills {
+    margin: 10px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 80px;
+    transition: bottom 0.3s ease;
+  }
+  
+  .skill {
+    color: #ffffff53;
+    
+  }
+  
+  .project-description-text {
+      color: #fff;
+      font-size: 20px;
+      margin: 10px;
+      position: absolute;
+      bottom: 5px;
+      transition: bottom 0.3s ease;
   }
   
   
+  
+  .project-hide-button {
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: #0af;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      margin: 10px;
+      position: absolute;
+      bottom: -60px;
+      /* transform: translateX(-50%); */
+      transition: bottom 0.3s ease;
+  }
+  
+  
+  
+  .project-box:hover .project-hide-button {
+  bottom: 10px; /* Slide up on hover */
+  }
+  
+  .project-box:hover .project-pic {
+      opacity: 1;
+      -webkit-mask-image: linear-gradient(to top, transparent 0%, #000 100%);
+      mask-image: linear-gradient(to top, transparent 0%, #000 100%);
+      transform: scale(1.05);
+  }
+  
+  .project-box:hover .project-title-text {
+    bottom: 160px;
+  }
+  
+  .project-box:hover .project-skills {
+    bottom: 140px;
+  }
+  
+  .project-box:hover .project-description-text {
+    bottom: 65px;
+  }
